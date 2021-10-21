@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#container {
+    margin: 0 auto;
+    width: 970px;
+}
+
+#company_logo {
+    padding: 0 20px 20px;
+}
+
+#navbar {
+    margin: 20px 0;
+}
+
+ul {
+    background-color: cadetblue;
+    color: white;
+    padding: 20px;
+    text-align: right;
+}
+
+li {
+    display: inline;
+    padding: 10px;
+}
+
+#banner {
+    padding: 0 10px;
+}
+
+#aerial_video {
+    display: inline-block;
+    vertical-align: middle;
+    width: 500px;
+}
+
+#aerial_text {
+    display: inline-block;
+    padding: 20px;
+    text-align: justify;
+    vertical-align: middle;
+    width: 400px;
+}
+
+#form_banner {
+    background-color: cadetblue;
+    margin: 20px 0;
+    padding: 20px;
+}
+
+form {
+    background-color: cornsilk;
+    margin: 0 auto;
+    padding: 20px;
+    width: 350px;
+}
+
+#login_panel {
+    color: white;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+label {
+    display: block;
+}
+
+#cards {
+    margin: 20px;
+    text-align: center;
+}
+
+.images {
+    border: 2px solid black;
+    height: 150px;
+    margin: 0 25px;
+    padding: 20px;
+}
+
+#table {
+    width: 100%;
+}
+
+table, tr, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 15px;
+    text-align: center;
+}
+
+button {
+    background-color: turquoise;
+    box-shadow: 3px 3px black;
+    color: black;
+    margin: 0 10px;
+    padding: 10px;
+}
+
+#footer {
+    background-color: cadetblue;
+    color: white;
+    margin: 20px 0;
+    padding: 20px;
+    text-align: center;
+}

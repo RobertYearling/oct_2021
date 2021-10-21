@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#container {
+    /* background-color: lightslategray; */
+    margin: 0 auto;
+    width: 970px;
+}
+
+/* Navigation */
+
+
+#navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: cadetblue;
+}
+
+#company_logo {
+    color: whitesmoke;
+    padding: 20px;
+}
+
+#navigation {
+    display: flex;
+    padding: 20px;
+}
+
+li {
+    list-style-type: none;
+    padding-left: 10px;
+}
+
+/* Banner */
+
+#banner {
+    display: flex;
+    align-items: center;
+    /* flex-direction: row-reverse; */
+    justify-content: space-evenly;
+    padding: 20px 0;
+}
+
+#aerial_video {
+    width: 500px;
+}
+
+
+#aerial_text {
+    /* width: 425px; */
+}
+
+/* Card Section */
+
+#card_section {
+    display: flex;
+    justify-content: space-around;
+    border: 3px solid lightslategray;
+    padding: 20px;
+    flex-direction: row-reverse;
+}
+
+.col-2 {
+    flex: 2;
+}
+
+.col {
+    flex: 1;
+}
+
+.card {
+    border: 1px solid black;
+    padding: 20px;
+}
+
+.card_image {
+    height: 250px;
+}
+
+.span_class {
+    color:yellow;
+}
+
+table, tr, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 20px;
+}
+
+#cards {
+    margin: 20px;
+    text-align: center;
+}
+
+.images {
+    border: 2px solid black;
+    /* width: 150px; */
+    height: 200px;
+    margin: 20px;
+    padding: 20px;
+}
+
+/* Main Section */
+
+.row {
+    display: flex;
+}
+
+.col {
+    flex: 1;
+}
+
+.col-2 {
+    flex: 2;
+}
+
+.side_panel {
+    margin: 20px;
+    text-align: center;
+}
+
+.side_card {
+    height: 50px;
+}
+
+button {
+    background-color: crimson;
+    color: whitesmoke;
+    margin: 15px;
+    padding: 20px;
+}

@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Week Four</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div id="container">
+        <!-- Navigation -->
+        <div id="navbar">
+            <h3 id="company_logo"><span class="company_name">Company</span> Logo</h3>
+            <ul id="navigation">
+                <li>Home</li>
+                <li>About</li>
+                <li>Contact</li>
+            </ul>
+        </div>
+        <!-- End of Navigation -->
+        <!-- Banner -->
+        <div id="banner">
+            <video id="aerial_video" src="video/aerial.mp4" controls></video>
+            <p id="aerial_text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nulla libero repellat deserunt <span class="span_class">obcaecati</span>  quis corrupti perferendis ipsa unde incidunt sequi! Rerum, inventore culpa nostrum suscipit dicta explicabo <span class="span_class">obcaecati</span> recusandae quae, deleniti aut architecto odio sed ipsam eveniet eius.</p>
+        </div>
+        <div id="cards">
+            <img class="images" src="img/download.png" alt="sun icon" onclick="alert('Walking on Sunshine')">
+            <img class="images" src="img/ironcat.png" alt="ironcat" onclick="alert('I am Ironcat')">
+        </div>
+        <!-- Card Section -->
+        <div id="card_section">
+            <div class="card">
+                <img class="card_image" src="img/mona-the-rivetertocat.png" alt="mona-the-rivetertocat">
+                <h2 class="card_title">Mona-The-Rivetertocat</h2>
+                <p class="card_text">Lorem ipsum dolor sit amet consectetur adipisicing elit. In dolores dignissimos incidunt, rerum voluptatum placeat quos, nulla iure laudantium consectetur sint, maxime illo?</p>
+            </div>
+            <div class="card">
+                <img class="card_image" src="img/dojocat.jpg" alt="Dojocat">
+                <h2 class="card_title">Dojocat</h2>
+                <p class="card_text">Lorem ipsum dolor sit amet consectetur adipisicing elit. In dolores dignissimos incidunt, rerum voluptatum placeat quos, nulla iure laudantium consectetur sint, maxime illo?</p>
+            </div>
+            <div class="card">
+                <img class="card_image" src="img/ironcat.png" alt="ironcat">
+                <h2 class="card_title">Ironcat</h2>
+                <p class="card_text">Lorem ipsum dolor sit amet consectetur adipisicing elit. In dolores dignissimos incidunt, rerum voluptatum placeat quos, nulla iure laudantium consectetur sint, maxime illo?</p>
+            </div>
+        </div>
+
+
+
+        <!-- Main Section -->
+        <div class="row">
+            <div class="col">
+                <div class="side_panel top">
+                    <img class="side_card" src="img/dojocat.jpg" alt="dojocat image">
+                    <p class="card_text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quo, harum expedita ad cupiditate neque odio sequi quod dolorum unde. Minima nulla ipsa provident recusandae at harum voluptatem ut esse quam.</p>
+                    <button onclick="this.remove()">Subscribe</button>
+                </div>
+                <div class="side_panel mid">
+                    <img class="side_card" src="img/dojocat.jpg" alt="dojocat image">
+                    <p class="card_text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quo, harum expedita ad cupiditate neque odio sequi quod dolorum unde. Minima nulla ipsa provident recusandae at harum voluptatem ut esse quam.</p>
+                </div>
+                <div class="side_panel bottom">
+                    <img class="side_card" src="img/dojocat.jpg" alt="dojocat image">
+                    <p class="card_text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quo, harum expedita ad cupiditate neque odio sequi quod dolorum unde. Minima nulla ipsa provident recusandae at harum voluptatem ut esse quam.</p>
+                </div>
+            </div>
+            <div class="col-2">
+                <div class="main_panel">
+                    <h1>Title Goes Here</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur blanditiis iusto sit, inventore delectus, assumenda eveniet harum tempore mollitia maxime voluptatum dicta quasi, quas fugiat!</p>
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+        <!-- End of Main Section -->
+
+        <div id="table_section">
+            <table id=table>
+                <tr>
+                    <th>Card Name</th>
+                    <th>Card Number</th>
+                    <th>Series</th>
+                    <th>Options</th>
+                </tr>
+                <tr>
+                    <td>Sun</td>
+                    <td>2021</td>
+                    <td>Daylight</td>
+                    <td><Button onclick="this.remove()">Have</Button><Button>Need</Button></td>
+                </tr>
+                <tr>
+                    <td>Ironcat</td>
+                    <td>2011</td>
+                    <td>Octocat</td>
+                    <td><Button onclick="this.remove()">Have</Button><Button>Need</Button></td>
+                </tr>
+            </table>
+        </div>
+
+        <!-- <video src="aerial.mp4" autoplay loop muted></video> -->
+        <form action="#">
+            <div>
+                <label for="fName">First Name</label>
+                <input type="text">
+            </div>
+                <label for="lName">Last Name</label>
+                <input type="text">
+                <br>
+                <label for="pswd">Password</label>
+                <input type="password">
+                <div>
+                    <label for="color">Color</label>
+                    <input type="color" name="" id="">
+                </div>
+                <div>
+                    <input type="radio" name="" id="">
+                    <label for="radio">Subscribe</label>
+                </div>
+        </form>
+    </div>
+
+</body>
+</html>
