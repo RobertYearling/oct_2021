@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Week Four</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div id="container">
+        <!-- Navigation -->
+        <div id="navbar">
+            <p id="company_logo">Company Logo</p>
+            <ul id="navigation">
+                <li>Home</li>
+                <li>About</li>
+                <li>Contact</li>
+            </ul>
+        </div>
+        <!-- Banner -->
+        <div id="banner">
+            <video id="aerial_video" src="video/aerial.mp4" controls></video>
+            <p id="aerial_text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos voluptas quae quia iure eius quod assumenda. Quia nesciunt deserunt totam iste quidem alias sunt minima voluptates aperiam ut. Dolor saepe eveniet perspiciatis?</p>
+        </div>
+
+        <!-- Week 4 Materials -->
+        <div class="row">
+            <div class="col">
+                <div class="side_panel top">
+                    <p class="side_panel_header">New Post</p>
+                    <p class="side_panel_text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Animi, aut quas! Magnam, dolor esse accusantium reiciendis delectus vero mollitia maiores sequi.</p>
+                    <p class="side_panel_num"><span id="num">0</span> Likes <button class="btn" onclick="add()">I want to chek this out</button></p>
+                </div>
+                <div class="side_panel top">
+                    <p class="side_panel_header">New Post</p>
+                    <p class="side_panel_text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Animi, aut quas! Magnam, dolor esse accusantium reiciendis delectus vero mollitia maiores sequi.</p>
+                    <p class="side_panel_num"><span id="num">0</span> Likes <button class="btn" onclick="message()">Alert</button></p>
+                </div>
+                <div class="side_panel top">
+                    <p class="side_panel_header">New Post</p>
+                    <p class="side_panel_text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Animi, aut quas! Magnam, dolor esse accusantium reiciendis delectus vero mollitia maiores sequi.</p>
+                    <p class="side_panel_num"><span id="num">0</span> Likes <button class="btn" onclick="showText(this)">I want to chek this out</button></p>
+                </div>
+            </div>
+            <div class="col-2">
+                <div class="main_panel">
+                    <h1>Title Goes Here</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut commodi id qui atque a eos, hic molestias corporis error odit illo labore nemo excepturi magnam? Labore voluptates asperiores aliquam ullam doloribus eaque quam cum dolorem optio quos libero, tempora magnam debitis velit vel excepturi enim laboriosam in cupiditate reprehenderit architecto.</p>
+                    <button class="btn" onclick="removeButton(this)">I want to chek this out</button></p>
+                </div>
+            </div>
+        </div>
+        <!-- Cards -->
+        <div id="cards">
+            <h2 class="section_title">Meet The Team</h2>
+            <id id="card_section">
+                <div class="card">
+                    <img src="img/mona-the-rivetertocat.png" alt="mono the riverterocat" class="card_img">
+                    <h3 class="card_title">Mono The Riverterocat</h3>
+                    <p class="card_desc">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Natus assumenda facere eum exercitationem totam nostrum doloremque accusantium excepturi, amet culpa!</p>
+                    <button onclick="alert('You are about to remove this card')">Remove From Collection</button>
+                </div>
+                <div class="card" onclick=this.remove()>
+                    <img src="img/dojocat.jpg" alt="dojocat" class="card_img">
+                    <h3 class="card_title">Dojocat</h3>
+                    <p class="card_desc">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Natus assumenda facere eum exercitationem totam nostrum doloremque accusantium excepturi, amet culpa!</p>
+                    <button onclick="alert('You are about to remove this card')">Remove From Collection</button>
+                </div>
+                <div class="card">
+                    <img src="img/ironcat.png" alt="ironcat" class="card_img">
+                    <h3 class="card_title">Ironcat</h3>
+                    <p class="card_desc">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Natus assumenda facere eum exercitationem totam nostrum doloremque accusantium excepturi, amet culpa!</p>
+                    <button>Remove From Collection</button>
+                </div>
+            </id>
+        </div>
+        <!-- Cookies Policy -->
+        <div id="cookie-policy">
+            <div class="cookies_content">
+                <div id="text">
+                    <h2 class="message_header">Stop! Cookie Time - Nom Nom Nom</h2>
+                    <p class="message_desc">We like to personalize cookies and content, to provide social media features and to analyse our traffic. <a href="#">Read more...</a></p>
+                </div>
+                <button class="btn" onclick="acceptCookies">I Accept</button>
+            </div>
+        </div>
+        <p id="footer">© Copyright - Web Fundamentals October 2021</p>
+    </div>
+    <script src="js/actions.js"></script>
+</body>
+</html>
