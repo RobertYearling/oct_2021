@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+    /* border: 1px dotted red; */
+}
+
+#wrapper {
+    margin: 0 auto;
+    width: 970px;
+}
+
+/* Navigation Section */
+
+#navigation {
+    display: flex;
+    justify-content: space-between;
+}
+
+#logo {
+    width: 100px;
+}
+
+#nav_links {
+    display: flex;
+    align-items: center;
+}
+
+li {
+    /* display: flex; */
+    padding: 0 15px;
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* kMain Section */
+
+#banner {
+    width: 970px;
+}
+
+#collections {
+    display: flex;
+    justify-content: space-between;
+}
+
+.add_card {
+    border: 1px solid grey;
+    padding: 5px;
+    text-align: center;
+}
+
+.card_img {
+    height: 120px;
+}
+
+.favorite {
+    padding: 10px;
+}
+
+.cart {
+    height: 25px;
+}
+
+button {
+    background-color: #ADCBE3;
+    padding: 3px 7px;
+}
+
+/* Text Section */
+
+#text_section {
+    display: flex;
+}
+
+#cookies {
+    display: flex;
+    border: 1px solid grey;
+    margin: 10px 0;
+    padding: 10px;
+}
+
+/* Footer Section */
+
+#footer {
+    background-color: black;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}

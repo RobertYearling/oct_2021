@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exam</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div id="wrapper">
+        <!-- Navigation Section -->
+        <div id="navigation">
+            <img src="img/dojo_icon_only.png" alt="company logo" id="logo">
+            <ul id="nav_links">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </div>
+        <!-- Main Section -->
+        <div id="main">
+            <img src="img/coding-dojo-logo-with-code.jpg" alt="computer code" id="banner">
+            <div id="collections">
+                <div class="add_card">
+                    <img src="img/ironcat.png" alt="ironcat" class="card_img">
+                    <p class="favorite" onclick="addFav()"><span class="fav">0</span> Add Favorites</p>
+                    <button onclick="addToCart(this)"><img src="img/cart-dark.png" alt="shopping cart" class="cart">Add To Cart</button>
+                </div>
+                <div class="add_card">
+                    <img src="img/dojocat.jpg" alt="dojocat" class="card_img">
+                    <p class="favorite">0 Add Favorites</p>
+                    <button ><img src="img/cart-dark.png" alt="shopping cart" class="cart">Add To Cart</button>
+                </div>
+                <div class="add_card">
+                    <img src="img/mona-the-rivetertocat.png" alt="dojocat" class="card_img">
+                    <p class="favorite">0 Add Favorites</p>
+                    <button onclick="message()"><img src="img/cart-dark.png" alt="shopping cart" class="cart">Add To Cart</button>
+                </div>
+                <div class="add_card">
+                    <img src="img/mona-the-rivetertocat.png" alt="dojocat" class="card_img">
+                    <p class="favorite">0 Add Favorites</p>
+                    <button><img src="img/cart-dark.png" alt="shopping cart" class="cart">Add To Cart</button>
+                </div>
+                <div class="add_card">
+                    <img src="img/dojocat.jpg" alt="dojocat" class="card_img">
+                    <p class="favorite">0 Add Favorites</p>
+                    <button><img src="img/cart-dark.png" alt="shopping cart" class="cart">Add To Cart</button>
+                </div>
+                <div class="add_card">
+                    <img src="img/ironcat.png" alt="ironcat" class="card_img">
+                    <p class="favorite">0 Add Favorites</p>
+                    <button><img src="img/cart-dark.png" alt="shopping cart" class="cart">Add To Cart</button>
+                </div>
+            </div>
+            <!-- Text Section -->
+            <div id="text_section">
+                <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. At quibusdam, inventore maxime deleniti quisquam temporibus, dolor beatae iste voluptate quaerat similique quae magni voluptates aliquid molestias fugit!</p>
+                <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. At quibusdam, inventore maxime deleniti quisquam temporibus, dolor beatae iste voluptate quaerat similique quae magni voluptates aliquid molestias fugit!</p>
+                <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. At quibusdam, inventore maxime deleniti quisquam temporibus, dolor beatae iste voluptate quaerat similique quae magni voluptates aliquid molestias fugit!</p>
+            </div>
+        </div>
+        <div id="cookies">
+            <img src="img/cookie.png" alt="cookies" id="cookie_icon">
+            <div id="text">
+                <h2 class="message_header">Stop! Cookie Time</h2>
+                <p class="message_desc">We use (sadly not the edible ones) to personalize content and ads, to provide social media features and to analyse our traffic. <a href="#">Read more...</a></p>
+            </div>
+            <button onclick="acceptCookies()">I Accept</button>
+        </div>
+        <p id="footer">© copyright 2021</p>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+</html>
