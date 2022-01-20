@@ -1,0 +1,28 @@
+SELECT * FROM users;
+
+INSERT INTO users ( first_name, last_name, email )
+VALUES ( 'Max', 'Maddux', 'max@desserts.com' ),
+( 'Corey', 'Michaud', 'corey@desserts.com' ),
+( 'Eriun', 'Reyes', 'eriun@desserts.com' );
+
+INSERT INTO desserts ( name, user_id )
+VALUES ( 'Ice Cream', 1 );
+
+SELECT * FROM desserts;
+
+UPDATE users SET email = 'eriun@dessert.com'
+WHERE id = 4;
+
+DELETE FROM users
+WHERE id = 5;
+
+INSERT INTO users ( first_name, last_name, email )
+VALUES ( 'Edward', 'Saviano', 'edward@dessert.com' );
+
+SELECT * FROM desserts;
+
+SELECT * FROM users
+JOIN desserts ON users.id = desserts.user_id;
+
+SELECT * FROM users
+LEFT JOIN desserts ON users.id = desserts.user_id;
