@@ -1,0 +1,13 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    margin: 25px;
+}
+
+.col-md-6 {
+    background-color: rgb(169, 175, 181);
+    padding: 20px;
+}

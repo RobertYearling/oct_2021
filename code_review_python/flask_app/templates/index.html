@@ -8,30 +8,47 @@
     <title>Document</title>
 </head>
 <body>
-    <div class="container">
+    <div class="container col-md-12">
         <h1>All Movies</h1>
-        <table class="table table-hover">
-            <thead>
-                <tr>
-                    <th>Title:</th>
-                    <th>Description</th>
-                    <th>Genre:</th>
-                    <th>Release Date:</th>
-                    <th>Actions:</th>
-                </tr>
-            </thead>
-            <tbody>
-                {% for movie in movies %}
-                <tr>
-                    <td>{{movie.title}}</td>
-                    <td>{{movie.description}}</td>
-                    <td>{{movie.genre}}</td>
-                    <td>{{movie.release_date}}</td>
-                    <td> <a href="#">Show</a> | <a href="#">Edit</a> | <a href="#">Delete</a></td>
-                </tr>
-                {% endfor %}
-            </tbody>
-        </table>
+        <div class="row">
+            <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                    <img src="..." class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                    <img src="..." class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                    <img src="..." class="d-block w-100" alt="...">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <table class="table table-striped table-hover col-9">
+                <thead>
+                    <tr>
+                        <th>Title:</th>
+                        <th>Description</th>
+                        <th>Genre:</th>
+                        <th>Release Date:</th>
+                        <th>Actions:</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for movie in movies %}
+                    <tr>
+                        <td>{{movie.title}}</td>
+                        <td>{{movie.description}}</td>
+                        <td>{{movie.genre}}</td>
+                        <td>{{movie.release_date}}</td>
+                        <td> <a href="#">Show</a> | <a href="#">Edit</a> | <a href="#">Delete</a></td>
+                    </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+        </div>
         <a href="/add_movie">Add New Movie</a>
     </div>
 </body>
